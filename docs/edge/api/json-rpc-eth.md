@@ -378,10 +378,10 @@ Executes a new message call immediately without creating a transaction on the bl
 *  <b>  from: DATA, 20 Bytes </b> - (optional) The address the transaction is sent from.
 *  <b>  to: DATA, 20 Bytes </b> - The address the transaction is directed to.
 *  <b>  gas: QUANTITY </b> - (optional) Integer of the gas provided for the transaction execution. eth_call consumes zero gas, but this parameter may be needed by some executions.
-*  <b>  gasPrice: QUANTITY </b> - (optional) Integer of the gasPrice used for each paid gas
-*  <b>  value: QUANTITY </b> - (optional) Integer of the value sent with this transaction
-*  <b>  data: DATA </b> - (optional) Hash of the method signature and encoded parameters. For details see Ethereum Contract ABI in the Solidity documentation
-*  <b>  QUANTITY|TAG </b> - integer block number, or the string "latest", see the default block paramete
+*  <b>  gasPrice: QUANTITY </b> - (optional) Integer of the gasPrice used for each paid gas.
+*  <b>  value: QUANTITY </b> - (optional) Integer of the value sent with this transaction.
+*  <b>  data: DATA </b> - (optional) Hash of the method signature and encoded parameters. For details see Ethereum Contract ABI in the Solidity documentation.
+*  <b>  QUANTITY|TAG </b> - integer block number, or the string "latest", see the default block parameters.
 
 ### Returns
 
@@ -402,7 +402,7 @@ Returns the value from a storage position at a given address.
 
 *  <b>  DATA, 20 Bytes </b> - address of the storage.
 *  <b>  QUANTITY </b> - integer of the position in the storage.
-*  <b>  QUANTITY|TAG </b> - integer block number, or the string "latest"
+*  <b>  QUANTITY|TAG </b> - integer block number, or the string "latest".
 
 ### Returns
 
@@ -428,10 +428,10 @@ Expect that all properties are optional.
 *  <b>  from: DATA, 20 Bytes </b>  - The address the transaction is sent from.
 *  <b>  to: DATA, 20 Bytes </b>  - The address the transaction is directed to.
 *  <b>  gas: QUANTITY </b>  - Integer of the gas provided for the transaction execution. eth_call consumes zero gas, but this parameter may be needed by some executions.
-*  <b>  gasPrice: QUANTITY </b>  - Integer of the gasPrice used for each paid gas
-*  <b>  value: QUANTITY </b>  - Integer of the value sent with this transaction
+*  <b>  gasPrice: QUANTITY </b>  - Integer of the gasPrice used for each paid gas.
+*  <b>  value: QUANTITY </b>  - Integer of the value sent with this transaction.
 *  <b>  data: DATA </b>  - Hash of the method signature and encoded parameters. For details see Ethereum Contract ABI in the Solidity documentation
-*  <b>  QUANTITY|TAG </b>  - integer block number, or the string "latest", see the default block paramete
+*  <b>  QUANTITY|TAG </b>  - integer block number, or the string "latest", see the default block parameters.
 
 ### Returns
 

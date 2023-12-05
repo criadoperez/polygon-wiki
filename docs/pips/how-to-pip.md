@@ -25,7 +25,7 @@ Polygon community.
 So before you begin crafting your proposal, ask yourself the following questions
 that will help you decide whether your idea is a PIP or a forum post!
 
-### Is it a PIP or an advertisment?
+### Is it a PIP or an advertisement?
 
 **Do not use the PIP framework to promote your project!**
 

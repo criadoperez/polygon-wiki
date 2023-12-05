@@ -213,5 +213,4 @@ inputs and returns a boolean value. It works as follows:
 - `byteNumber` is calculated as index / 8
 - `bitNumber` is calculated as index % 8
 - If `byteNumber` is greater than or equal to the length of `bitmap`, it returns false.
-- It returns the result of the expression uint8(bitmap[byteNumber]) & (1 << `bitNumber`) > 0,
-  which checks if the bitNumber-th bit of the byteNumber-th byte in bitmap is set to 1.
+- It returns the result of the expression uint8(bitmap[byteNumber]) & (1 << `bitNumber`) > 0, which checks if the bitNumber-th bit of the byteNumber-th byte in bitmap is set to 1.

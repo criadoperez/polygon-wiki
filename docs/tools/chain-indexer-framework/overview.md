@@ -43,7 +43,7 @@ The development complexity in building a blockchain data indexer arises from the
 
 :::note
 
-**Chain Indexer Framework** is a tool that gathers information from a blockchain and channels it into a data stream known as Kafka. However, such data is raw, and not yet ready for use. It must therefore be transformed and stored in a database like Postgres or MongoDB. Only then can a decentralized application (dApp) utilize it. Chainflow provides the framework/tools that enable developers to transform the raw data based on their inidividual dApp requirements.
+**Chain Indexer Framework** is a tool that gathers information from a blockchain and channels it into a data stream known as Kafka. However, such data is raw, and not yet ready for use. It must therefore be transformed and stored in a database like Postgres or MongoDB. Only then can a decentralized application (dApp) utilize it. Chainflow provides the framework/tools that enable developers to transform the raw data based on their individual dApp requirements.
 
 :::
 
